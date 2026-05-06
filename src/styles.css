@@ -1,0 +1,234 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: #F5F0E8; }
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+input[type="number"] { -moz-appearance: textfield; }
+
+.rvb-inputs .rvb-slider {
+  touch-action: none;
+}
+.rvb-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: rgba(15,15,14,0.15);
+  border-radius: 999px;
+  outline: none;
+}
+.rvb-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: #D7472A;
+  cursor: pointer;
+  border: 3px solid #F5F0E8;
+  box-shadow: 0 0 0 1px rgba(15,15,14,0.15);
+}
+.rvb-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: #D7472A;
+  cursor: pointer;
+  border: 3px solid #F5F0E8;
+  box-shadow: 0 0 0 1px rgba(15,15,14,0.15);
+}
+
+::selection { background: #D7472A; color: #fff; }
+a:hover { color: #D7472A !important; }
+
+.rvb-inputs::-webkit-scrollbar { width: 6px; }
+.rvb-inputs::-webkit-scrollbar-track { background: transparent; }
+.rvb-inputs::-webkit-scrollbar-thumb { background: rgba(15,15,14,0.15); border-radius: 999px; }
+
+@media (max-width: 900px) {
+  .rvb-main { grid-template-columns: 1fr !important; }
+  .rvb-inputs {
+    position: static !important;
+    max-height: none !important;
+  }
+  .rvb-calculator-col-inputs {
+    border-right: none !important;
+    padding-right: 0 !important;
+    border-bottom: 1px solid rgba(15, 15, 14, 0.12);
+    padding-bottom: 24px !important;
+  }
+  .rvb-calculator-col-results {
+    padding-left: 0 !important;
+    padding-top: 24px;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0.5in 0.5in 0.75in;
+    @bottom-center {
+      content: "rentbuywise.app  ·  Page " counter(page) " / " counter(pages);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 9pt;
+      color: #555;
+      vertical-align: top;
+      padding-top: 4px;
+    }
+  }
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 11pt !important;
+    line-height: 1.35 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .rvb-app-root {
+    min-height: 0 !important;
+  }
+  .rvb-no-print {
+    display: none !important;
+  }
+  header {
+    display: none !important;
+  }
+  .rvb-main {
+    display: block !important;
+    max-width: none !important;
+    padding: 0 !important;
+  }
+  .rvb-calculator-col-inputs {
+    border-right: none !important;
+    padding-right: 0 !important;
+    padding-bottom: 14px !important;
+    margin-bottom: 14px !important;
+    border-bottom: 1px solid #ddd !important;
+  }
+  .rvb-calculator-col-results.rvb-results-pane,
+  .rvb-results-pane {
+    padding-left: 0 !important;
+    gap: 16px !important;
+  }
+  #charts {
+    gap: 12px !important;
+  }
+  .rvb-inputs {
+    position: static !important;
+    max-height: none !important;
+    overflow: visible !important;
+    break-inside: auto !important;
+    align-self: start !important;
+  }
+  .rvb-inputs-panel {
+    gap: 18px !important;
+  }
+  .rvb-input-section-title {
+    font-family: inherit !important;
+    font-size: 12pt !important;
+    font-weight: 600 !important;
+    margin: 0 0 4px !important;
+  }
+  .rvb-inputs-panel input[type="range"] {
+    display: none !important;
+  }
+  .rvb-slider-row {
+    gap: 2px !important;
+  }
+  .rvb-eyebrow {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    font-size: 9pt !important;
+    letter-spacing: 0.1em !important;
+    padding: 4px 10px !important;
+    margin-bottom: 8px !important;
+  }
+  .rvb-verdict-title {
+    font-family: inherit !important;
+    font-size: 16pt !important;
+    line-height: 1.25 !important;
+    font-weight: 700 !important;
+    margin: 0 0 10px !important;
+    letter-spacing: normal !important;
+  }
+  .rvb-verdict-title span:last-child {
+    display: block !important;
+    font-size: 11pt !important;
+    font-weight: 400 !important;
+    opacity: 0.65 !important;
+    margin-top: 4px;
+  }
+  .rvb-verdict-stats {
+    display: block !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    background: #fff !important;
+    overflow: visible !important;
+  }
+  .rvb-stat {
+    padding: 8px 10px !important;
+    background: #fff !important;
+    border-bottom: 1px solid #e5e5e5 !important;
+    break-inside: avoid;
+  }
+  .rvb-stat:last-child {
+    border-bottom: none !important;
+  }
+  .rvb-stat-value {
+    font-family: inherit !important;
+    font-size: 12pt !important;
+    font-weight: 600 !important;
+  }
+  .rvb-cost-cards {
+    display: block !important;
+    gap: 12px !important;
+  }
+  .rvb-cost-card {
+    break-inside: avoid;
+    margin-bottom: 12px !important;
+    border-radius: 4px !important;
+    border: 1px solid #bbb !important;
+  }
+  .rvb-cost-card-head {
+    padding: 8px 10px !important;
+    background: #333 !important;
+    border-bottom: 1px solid #333 !important;
+  }
+  .rvb-cost-card-title {
+    font-family: inherit !important;
+    font-size: 11pt !important;
+    font-weight: 600 !important;
+  }
+  .rvb-cost-card > div:last-child > div {
+    padding: 6px 10px !important;
+  }
+  .rvb-cost-card span {
+    font-size: 10pt !important;
+  }
+  .rvb-chart-block {
+    padding: 10px 12px !important;
+    border-radius: 4px !important;
+    border: 1px solid #ccc !important;
+    break-inside: avoid;
+  }
+  .rvb-chart-eyebrow {
+    font-size: 8pt !important;
+    margin-bottom: 4px !important;
+  }
+  .rvb-chart-title {
+    font-family: inherit !important;
+    font-size: 11pt !important;
+    font-weight: 600 !important;
+    margin: 0 0 8px !important;
+  }
+  .rvb-chart-block p {
+    font-size: 10pt !important;
+    margin: 0 0 8px !important;
+  }
+  .rvb-chart-block svg {
+    max-height: 200px !important;
+  }
+}
+
