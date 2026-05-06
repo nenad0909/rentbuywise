@@ -31,7 +31,7 @@ const SECTION_EYEBROW_STYLE = {
 
 const VERDICT_PRINT_BUTTON_STYLE = {
   ...SECTION_EYEBROW_STYLE,
-  justifyContent: "center",
+  justifyContent: "flex-start",
   background: INK,
   cursor: "pointer",
   border: "none",
