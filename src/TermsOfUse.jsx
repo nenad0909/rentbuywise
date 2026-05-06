@@ -53,10 +53,10 @@ export default function TermsOfUsePage() {
         <p style={{ ...p, opacity: 0.75, fontSize: 14, marginBottom: 20 }}>Last Updated: May 5, 2026</p>
 
         <p style={p}>
-          Welcome to RentBuyWise.app. These Terms of Use (&quot;Terms&quot;) govern your access to and use of RentBuyWise, including our rent-versus-buy calculator, website, content, tools, and related
+          Welcome to RentBuyWise.com. These Terms of Use (&quot;Terms&quot;) govern your access to and use of RentBuyWise, including our rent-versus-buy calculator, website, content, tools, and related
           services.
         </p>
-        <p style={p}>By using RentBuyWise.app, you agree to these Terms. If you do not agree with these Terms, please do not use the website.</p>
+        <p style={p}>By using RentBuyWise.com, you agree to these Terms. If you do not agree with these Terms, please do not use the website.</p>
 
         <h2 style={h2}>1. About RentBuyWise</h2>
         <p style={p}>RentBuyWise is an informational web application designed to help users compare the estimated financial impact of renting versus buying a home.</p>
@@ -69,7 +69,7 @@ export default function TermsOfUsePage() {
         <h2 style={h2}>2. No Financial, Legal, Tax, Mortgage, Investment, or Real Estate Advice</h2>
         <p style={p}>RentBuyWise does not provide financial, legal, tax, mortgage, investment, insurance, or real estate advice.</p>
         <p style={p}>
-          The information and calculator results provided on RentBuyWise.app are estimates only and should not be relied on as professional advice. Your actual costs, mortgage terms, tax obligations,
+          The information and calculator results provided on RentBuyWise.com are estimates only and should not be relied on as professional advice. Your actual costs, mortgage terms, tax obligations,
           insurance costs, property value, market conditions, and personal financial situation may vary significantly.
         </p>
         <p style={p}>
@@ -121,7 +121,7 @@ export default function TermsOfUsePage() {
 
         <h2 style={h2}>6. Intellectual Property</h2>
         <p style={p}>
-          All content on RentBuyWise.app, including the website design, text, graphics, logo, calculator structure, layout, branding, and other materials, is owned by RentBuyWise or used with
+          All content on RentBuyWise.com, including the website design, text, graphics, logo, calculator structure, layout, branding, and other materials, is owned by RentBuyWise or used with
           permission.
         </p>
         <p style={p}>
@@ -159,7 +159,7 @@ export default function TermsOfUsePage() {
         <p style={p}>
           Privacy Policy:{" "}
           <Link to="/privacy-policy" style={{ color: ACCENT, fontWeight: 600 }}>
-            RentBuyWise.app/privacy-policy
+            RentBuyWise.com/privacy-policy
           </Link>
         </p>
 
@@ -222,7 +222,7 @@ export default function TermsOfUsePage() {
         <p style={p}>
           We may update these Terms from time to time. When we make changes, we will update the &quot;Last Updated&quot; date at the top of this page.
         </p>
-        <p style={p}>Your continued use of RentBuyWise.app after updated Terms are posted means you accept the revised Terms.</p>
+        <p style={p}>Your continued use of RentBuyWise.com after updated Terms are posted means you accept the revised Terms.</p>
 
         <h2 style={h2}>15. Termination</h2>
         <p style={p}>
@@ -234,7 +234,7 @@ export default function TermsOfUsePage() {
           These Terms are governed by the laws of the State of California, without regard to conflict of law principles.
         </p>
         <p style={p}>
-          Any disputes related to these Terms or RentBuyWise.app shall be handled in the state and federal courts located in California, unless otherwise required by law.
+          Any disputes related to these Terms or RentBuyWise.com shall be handled in the state and federal courts located in California, unless otherwise required by law.
         </p>
 
         <h2 style={{ ...h2, marginBottom: 0 }}>17. Contact Us</h2>
@@ -243,8 +243,8 @@ export default function TermsOfUsePage() {
           <strong>RentBuyWise</strong>
           <br />
           Website:{" "}
-          <a href="https://RentBuyWise.app" style={{ color: ACCENT, fontWeight: 600 }}>
-            RentBuyWise.app
+          <a href="https://rentbuywise.com" style={{ color: ACCENT, fontWeight: 600 }}>
+            RentBuyWise.com
           </a>
           <br />
           Email:{" "}

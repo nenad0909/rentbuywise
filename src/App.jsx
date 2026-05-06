@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import DisclaimerPage from "./Disclaimer";
 import Layout from "./Layout";
 import PrivacyPolicyPage from "./PrivacyPolicy";
+import ScrollToTop from "./ScrollToTop";
 import TermsOfUsePage from "./TermsOfUse";
 import { simulate } from "./calc";
 import { BreakdownChart, CumulativeChart, NetWorthChart, fmt$, fmt$0 } from "./charts";
@@ -388,6 +389,7 @@ export function CalculatorPage() {
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<CalculatorPage />} />

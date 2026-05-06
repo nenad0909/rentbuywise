@@ -54,10 +54,10 @@ export default function PrivacyPolicyPage() {
         <p style={{ ...p, opacity: 0.75, fontSize: 14, marginBottom: 20 }}>Last Updated: May 5, 2026</p>
 
         <p style={p}>
-          RentBuyWise (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) operates RentBuyWise.app, a rent-versus-buy calculator and informational web application.
+          RentBuyWise (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) operates RentBuyWise.com, a rent-versus-buy calculator and informational web application.
         </p>
         <p style={p}>
-          This Privacy Policy explains how we collect, use, store, and protect information when you use RentBuyWise.app. By using our website or calculator, you agree to the practices described in this
+          This Privacy Policy explains how we collect, use, store, and protect information when you use RentBuyWise.com. By using our website or calculator, you agree to the practices described in this
           Privacy Policy.
         </p>
 
@@ -97,7 +97,7 @@ export default function PrivacyPolicyPage() {
         <p style={p}>This information may include your name, email address, message content, and any other information you choose to provide.</p>
 
         <h3 style={h3}>Automatically Collected Information</h3>
-        <p style={p}>When you visit RentBuyWise.app, certain information may be collected automatically, such as:</p>
+        <p style={p}>When you visit RentBuyWise.com, certain information may be collected automatically, such as:</p>
         <ul style={ul}>
           <li style={{ marginBottom: 6 }}>IP address</li>
           <li style={{ marginBottom: 6 }}>Browser type</li>
@@ -226,7 +226,7 @@ export default function PrivacyPolicyPage() {
           RentBuyWise is operated from the United States. If you access the website from outside the United States, your information may be processed and stored in the United States or other countries
           where our service providers operate.
         </p>
-        <p style={p}>By using RentBuyWise.app, you understand that your information may be transferred to locations outside your country of residence.</p>
+        <p style={p}>By using RentBuyWise.com, you understand that your information may be transferred to locations outside your country of residence.</p>
 
         <h2 style={h2}>11. Children&apos;s Privacy</h2>
         <p style={p}>RentBuyWise is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
@@ -251,7 +251,7 @@ export default function PrivacyPolicyPage() {
         <p style={p}>
           We may update this Privacy Policy from time to time. When we make changes, we will update the &quot;Last Updated&quot; date at the top of this page.
         </p>
-        <p style={p}>Your continued use of RentBuyWise.app after changes are posted means you accept the updated Privacy Policy.</p>
+        <p style={p}>Your continued use of RentBuyWise.com after changes are posted means you accept the updated Privacy Policy.</p>
 
         <h2 style={{ ...h2, marginBottom: 0 }}>15. Contact Us</h2>
         <p style={{ ...p, marginTop: 12 }}>
@@ -261,8 +261,8 @@ export default function PrivacyPolicyPage() {
           <strong>RentBuyWise</strong>
           <br />
           Website:{" "}
-          <a href="https://RentBuyWise.app" style={{ color: ACCENT, fontWeight: 600 }}>
-            RentBuyWise.app
+          <a href="https://rentbuywise.com" style={{ color: ACCENT, fontWeight: 600 }}>
+            RentBuyWise.com
           </a>
           <br />
           Email:{" "}
