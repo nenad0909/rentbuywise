@@ -67,7 +67,7 @@ export default function Layout() {
             Contact
           </a>
         </nav>
-        <p style={{ margin: 0, fontSize: 12, opacity: 0.92 }}>Nenad Milicevic, 2026 all rights reserved</p>
+        <p style={{ margin: 0, fontSize: 12, opacity: 0.92 }}> ©2026 Nenad Milicevic</p>
       </footer>
     </div>
   );
