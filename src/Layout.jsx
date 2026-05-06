@@ -1,4 +1,5 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
+import logoPngUrl from "./assets/logo.png";
 import rentbuywiseLogoUrl from "./assets/rentbuywise_logo.svg";
 import { INK, PAPER, RULE } from "./theme";
 
@@ -9,7 +10,10 @@ export default function Layout() {
     <div className="rvb-app-root" style={{ background: PAPER, color: INK, minHeight: "100vh", fontFamily: "Inter, system-ui, sans-serif", display: "flex", flexDirection: "column" }}>
       <header style={{ borderBottom: `1px solid ${RULE}`, padding: "20px 40px", display: "flex", justifyContent: "space-between", alignItems: "center", position: "sticky", top: 0, zIndex: 10, background: PAPER }}>
         <Link to="/" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
-          <img src={rentbuywiseLogoUrl} alt="RentBuyWise" style={{ height: 28, width: "auto", display: "block" }} />
+          <picture>
+            <source media="(max-width: 640px)" srcSet={logoPngUrl} />
+            <img src={rentbuywiseLogoUrl} alt="RentBuyWise" style={{ height: 28, width: "auto", display: "block" }} />
+          </picture>
         </Link>
         {isHome ? (
           <div className="rvb-no-print" style={{ display: "flex", gap: 28, fontSize: 13, opacity: 0.7 }}>
