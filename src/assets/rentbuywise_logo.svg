@@ -13,24 +13,24 @@
         letter-spacing: 0em;
       }
 
-      .cls-2, .cls-3 {
+      .cls-2, .cls-3, .cls-4 {
         fill: #d7482a;
       }
 
-      .cls-4 {
+      .cls-5 {
         font-family: Roboto-Regular, Roboto;
         font-size: 101.27px;
       }
 
-      .cls-5 {
+      .cls-6 {
         letter-spacing: 0em;
       }
 
-      .cls-6 {
+      .cls-4 {
         letter-spacing: -.01em;
       }
     </style>
   </defs>
-  <text class="cls-4" transform="translate(16.67 90.9)"><tspan x="0" y="0">RE</tspan><tspan class="cls-6" x="119.96" y="0">N</tspan><tspan x="190.76" y="0">T</tspan><tspan class="cls-3" x="251.19" y="0">BU</tspan><tspan class="cls-2" x="379.94" y="0">Y</tspan><tspan class="cls-5" x="441.6" y="0">WISE</tspan></text>
+  <text class="cls-5" transform="translate(16.67 90.9)"><tspan x="0" y="0">BUY</tspan><tspan class="cls-3" x="189.58" y="0">RE</tspan><tspan class="cls-4" x="309.53" y="0">N</tspan><tspan class="cls-2" x="380.34" y="0">T</tspan><tspan class="cls-6" x="441.5" y="0">WISE</tspan></text>
   <rect class="cls-1" x="1" y="1" width="708" height="110"/>
 </svg>
